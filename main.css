@@ -27,8 +27,8 @@ nav {
 
 .nav-header {
   display: inline-block;
-  margin: 5px 0 0px 10px;
-  font-size: 1.5em;
+  margin: 8px 0 0px 10px;
+  font-size: 1.3em;
 }
 
 .nav-content-right {
@@ -69,6 +69,7 @@ nav {
 /*Main Content*/
 
 .main-content-header {
+  color: #FFF;
   text-align: center;
 }
 
@@ -154,5 +155,8 @@ nav {
   .banner-content {
     display: flex;
     justify-content: center;
+  }
+  .nav-header {
+    font-size: 1.5em;
   }
 }
