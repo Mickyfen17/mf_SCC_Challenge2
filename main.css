@@ -23,8 +23,8 @@ nav {
 
 .nav-header {
   display: inline-block;
-  margin: 10px 0 0px 10px;
-  font-size: 1.1em;
+  margin: 5px 0 0px 10px;
+  font-size: 1.5em;
 }
 
 .nav-content-right {
@@ -79,13 +79,16 @@ nav {
   position: relative;
   height: 200px;
   margin-bottom: 15px;
+  background: #FFF;
   border: 1px solid black;
 }
 
 .player-stat-header {
   margin: 0;
   text-align: center;
-  background: green;
+  background: #eceeed;
+  color: #a7a9a8;
+  font-size: 1.2em;
 }
 
 .player-stats img {
@@ -98,19 +101,28 @@ nav {
 
 .stat {
   margin: 15px 0 0 0;
+  color: #5c90b2;
   font-size: 3em;
 }
 
 .player-content p {
   margin: 0;
+  color: #a8cbd4;
+}
+
+.player-content .season-totals {
+  color: #a7a9a8;
 }
 
 .player-name {
   position: absolute;
   bottom: 0;
-  width: 100%;
+  left: 4px;
+  width: 98%;
   height: 48px;
   margin: 0;
+  line-height: 2.5;
   text-align: center;
-  background: lightgrey;
+  color: #4f4f4f;
+  border-top: 1px solid #a7a9a8;
 }
