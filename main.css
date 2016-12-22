@@ -25,9 +25,10 @@ nav {
   width: 25px;
 }
 
+
 .nav-header {
   display: inline-block;
-  margin: 8px 0 0px 25px;
+  margin: 6px 0 0 0;
   font-size: 1.3em;
 }
 
@@ -40,7 +41,7 @@ nav {
   width: 25px;
 }
 
-.usa-flag {
+.nufc-logo {
   width: 25px;
 }
 
@@ -75,12 +76,20 @@ nav {
 
 .sponsor-advert {
   height: 20px;
-  max-width: 380px;
+  max-width: 385px;
   margin: 0 auto 20px auto;
   background: #0575E6;
   background: -webkit-linear-gradient(to left, #0575E6 , #021B79);
   background: linear-gradient(to left, #0575E6 , #021B79);
   text-align: center;
+}
+
+.sponsor-advert p{
+  font-size: 0.4em;
+  margin: 0;
+  padding-top: 5px;
+  color: #FFF;
+
 }
 
 .stat-content {
