@@ -4,7 +4,10 @@ body {
 }
 
 body {
-  background: aqua;
+  font-family: 'Montserrat', sans-serif;
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(#434343, #000000);
+  background: linear-gradient(#434343, #000000);
 }
 
 /*Nav*/
@@ -12,7 +15,8 @@ nav {
   height: 40px;
   margin: -8px;
   text-align: center;
-  background: darkgray;
+  background: #FFF;
+  border-bottom: 4px solid #c3a572;
 }
 
 .nav-burger {
@@ -89,9 +93,9 @@ nav {
   flex: 1 1 98%;
   height: 200px;
   max-width: 380px;
-  margin-bottom: 15px;
+  margin: 0 5px 15px 5px;
   background: #FFF;
-  border: 1px solid black;
+  border: 2px solid #c3a572;
 }
 
 .player-stat-header {
@@ -140,10 +144,15 @@ nav {
 
 
 /*MEDIA*/
-@media screen and (min-width: 780px) {
-  .player-stats {
+@media screen and (min-width: 800px) {
+  /*.player-stats {
     margin: 0 5px 15px 5px;
-  }
+  }*/
   .sponsor-advert {
     max-width: 775px;
+  }
+  .banner-content {
+    display: flex;
+    justify-content: center;
+  }
 }
