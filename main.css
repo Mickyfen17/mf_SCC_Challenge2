@@ -70,14 +70,25 @@ nav {
 
 .sponsor-advert {
   height: 20px;
-  margin-bottom: 20px;
+  max-width: 380px;
+  margin: 0 auto 20px auto;
   background: #FFF;
   text-align: center;
 }
 
+.stat-content {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 900px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
 .player-stats {
   position: relative;
+  flex: 1 1 98%;
   height: 200px;
+  max-width: 380px;
   margin-bottom: 15px;
   background: #FFF;
   border: 1px solid black;
@@ -125,4 +136,14 @@ nav {
   text-align: center;
   color: #4f4f4f;
   border-top: 1px solid #a7a9a8;
+}
+
+
+/*MEDIA*/
+@media screen and (min-width: 780px) {
+  .player-stats {
+    margin: 0 5px 15px 5px;
+  }
+  .sponsor-advert {
+    max-width: 775px;
 }
