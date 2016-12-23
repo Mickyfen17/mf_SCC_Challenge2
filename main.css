@@ -28,7 +28,7 @@ nav {
 
 .nav-header {
   display: inline-block;
-  margin: 6px 0 0 25px;
+  margin: 6px 0 0 22px;
   font-size: 1.3em;
 }
 
@@ -89,7 +89,7 @@ nav {
 .sponsor-advert p{
   font-size: 0.4em;
   margin: 0;
-  padding-top: 10px;
+  padding-top: 8px;
   color: #FFF;
 
 }
@@ -164,6 +164,48 @@ nav {
   text-align: center;
   color: #4f4f4f;
   border-top: 1px solid #a7a9a8;
+}
+
+/*Fixture Content*/
+
+.fixtures {
+  background: #eceeed;
+}
+
+.matches {
+  text-align: center;
+  margin: 0;
+  padding: 5px 0 5px 0;
+  letter-spacing: -2px;
+  font-weight: 400;
+  color: #a7a9a8;
+}
+.dates {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  background: #FFF;
+}
+
+.fixture-day {
+  margin-left: 5px;
+  letter-spacing: -2px;
+  font-weight: 400;
+  color: #a7a9a8;
+}
+
+.fixture-date {
+  margin-right: 5px;
+  color: #5c90b2;
+}
+
+.fixture-date p {
+  margin: 0;
+}
+
+.fixture-date h3 {
+  margin: 0 0 0 3px;
 }
 
 
