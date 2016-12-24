@@ -17,8 +17,8 @@ nav {
 
 .nav-burger {
   float: left;
-  margin: 7px;
   width: 25px;
+  margin: 7px;
   cursor: pointer;
 }
 
@@ -88,9 +88,9 @@ nav {
 }
 
 .sponsor-advert p{
-  font-size: 0.4em;
   margin: 0;
   padding-top: 8px;
+  font-size: 0.4em;
   color: #FFF;
 
 }
@@ -126,9 +126,9 @@ nav {
 .player-stat-header {
   margin: 0;
   text-align: center;
+  font-size: 1.2em;
   background: #eceeed;
   color: #a7a9a8;
-  font-size: 1.2em;
 }
 
 .player-stats img {
@@ -160,25 +160,7 @@ nav {
   border-radius: 0;
 }
 
-#TS-flag {
-  position: absolute;
-  bottom: 5px;
-  left: 24px;
-}
-
-#MM-flag {
-  position: absolute;
-  bottom: 5px;
-  left: 24px;
-}
-
-#MA-flag {
-  position: absolute;
-  bottom: 5px;
-  left: 24px;
-}
-
-#MF-flag {
+.flag {
   position: absolute;
   bottom: 5px;
   left: 24px;
@@ -201,7 +183,7 @@ nav {
 /*Fixture Content*/
 
 .fixtures {
-  margin: 15px -8px 0 -8px;
+  margin: 0px -8px;
   padding-bottom: 20px;
   background: #eceeed;
 }
@@ -228,10 +210,10 @@ nav {
   margin: 0 auto;
 }
 .dates {
-  justify-content: space-between;
   display: flex;
   width: 90%;
   max-width: 380px;
+  justify-content: space-between;
   align-items: center;
   margin: 0 auto 10px auto;
   background: #FFF;
