@@ -154,6 +154,36 @@ nav {
   color: #a7a9a8;
 }
 
+.player-stats .flag {
+  width: 30px;
+  height: 25px;
+  border-radius: 0;
+}
+
+#TS-flag {
+  position: absolute;
+  bottom: 5px;
+  left: 24px;
+}
+
+#MM-flag {
+  position: absolute;
+  bottom: 5px;
+  left: 24px;
+}
+
+#MA-flag {
+  position: absolute;
+  bottom: 5px;
+  left: 24px;
+}
+
+#MF-flag {
+  position: absolute;
+  bottom: 5px;
+  left: 24px;
+}
+
 .player-name {
   position: absolute;
   bottom: 0;
