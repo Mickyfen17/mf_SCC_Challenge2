@@ -202,7 +202,7 @@ nav {
 
 .fixtures {
   margin: 15px -8px 0 -8px;
-  padding-bottom: 2px;
+  padding-bottom: 20px;
   background: #eceeed;
 }
 
@@ -224,6 +224,8 @@ nav {
 .dates-wrapper {
   display: flex;
   flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 .dates {
   justify-content: space-between;
