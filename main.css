@@ -23,6 +23,7 @@ nav {
   float: left;
   margin: 7px;
   width: 25px;
+  cursor: pointer;
 }
 
 
@@ -39,10 +40,12 @@ nav {
 
 .bell {
   width: 25px;
+  cursor: pointer;
 }
 
 .nufc-logo {
   width: 25px;
+  cursor: pointer;
 }
 
 /*Banner Content*/
@@ -55,6 +58,7 @@ nav {
   width: 30px;
   height: 30px;
   margin: 5px 10px;
+  cursor: pointer;
 }
 
 .website-link-icons {
@@ -161,6 +165,7 @@ nav {
   height: 48px;
   margin: 0;
   line-height: 2.5;
+  letter-spacing: -1px;
   text-align: center;
   color: #4f4f4f;
   border-top: 1px solid #a7a9a8;
@@ -169,7 +174,7 @@ nav {
 /*Fixture Content*/
 
 .fixtures {
-  margin: 0 -8px 0 -8px;
+  margin: 15px -8px 0 -8px;
   padding-bottom: 2px;
   background: #eceeed;
 }
@@ -188,10 +193,16 @@ nav {
   font-weight: 400;
   color: #a7a9a8;
 }
+
+.dates-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
 .dates {
   justify-content: space-between;
   display: flex;
   width: 90%;
+  max-width: 380px;
   align-items: center;
   margin: 0 auto 10px auto;
   background: #FFF;
@@ -233,5 +244,8 @@ nav {
   }
   .nav-header {
     font-size: 1.5em;
+  }
+  .dates {
+    width: 30%;
   }
 }
