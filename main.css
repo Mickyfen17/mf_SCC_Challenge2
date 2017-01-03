@@ -49,6 +49,7 @@ nav {
 
 .banner-content {
   margin-top: 20px;
+  text-align: center;
 }
 
 .banner-images {
@@ -59,12 +60,12 @@ nav {
 }
 
 .website-link-icons {
-  display: flex;
+  display: inline-block;;
   justify-content: center;
 }
 
 .social-media-icons {
-  display: flex;
+  display: inline-block;;
   justify-content: center;
 }
 
@@ -172,7 +173,7 @@ nav {
   left: 4px;
   width: 98%;
   height: 48px;
-  margin: 0;
+  margin: 0 0 0 0;
   line-height: 2.5;
   letter-spacing: -1px;
   text-align: center;
